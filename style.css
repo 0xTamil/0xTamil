@@ -361,7 +361,7 @@ a {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
     .sidebar-brand {
         padding: 18px 20px;
     }
