@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0xTamil</title>
+    <meta name="description" content="0xTamil — curated roadmaps and notes on low-level programming." />
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23000000' stroke='%23ffffff' stroke-width='1.5'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3E01%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <button id="navToggle" class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+    <div class="scrim" id="scrim"></div>
+
+    <div class="app-shell">
+
+        <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+            <a class="sidebar-brand" href="index.html">
+                <span class="sidebar-brand-title">0xTamil</span>
+                <span class="sidebar-brand-tag">Awesome Low Level</span>
+            </a>
+
+            <nav class="sidebar-nav">
+                <p class="sidebar-label">Contents</p>
+                <ul class="toc">
+                    <li class="toc-node">
+                        <div class="toc-row">
+                            <span class="toc-spacer"></span>
+                            <a href="#about" class="toc-leaf active">About</a>
+                        </div>
+                    </li>
+                    <li class="toc-node collapsed">
+                        <div class="toc-row">
+                            <button type="button" class="toc-twirl" aria-label="Toggle section" aria-expanded="false">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M6 4l12 8-12 8z" fill="currentColor" />
+                                </svg>
+                            </button>
+                            <span class="toc-parent">Community Projects</span>
+                        </div>
+                        <ul class="toc-children">
+                            <li><a href="https://0xtamil.github.io/awesome-low-level/" target="_blank" rel="noopener"
+                                    class="toc-leaf">Awesome Low Level</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a class="source-link" href="https://github.com/0xTamil" target="_blank" rel="noopener">Source on
+                    GitHub</a>
+            </div>
+        </aside>
+
+        <main class="main-area">
+            <div class="hero" id="about">
+                <div class="hero-inner">
+                    <h1 class="brand">0xTamil</h1>
+                    <p class="tagline">A Tamil community dedicated for learning low level programming and
+                        understanding how the machines really works. Cause when all the AI hullabaloo gets over and
+                        fades away, Somebody needs to cleaning the mess created by AI.</p>
+
+                    <div class="socials">
+                        <a class="social-link" href="https://github.com/0xTamil" target="_blank" rel="noopener"
+                            aria-label="View us on GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a class="social-link" href="https://discord.gg/your-invite" target="_blank" rel="noopener"
+                            aria-label="Join us on Discord">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                        <a class="social-link" href="https://reddit.com/r/your-subreddit" target="_blank" rel="noopener"
+                            aria-label="Join us on Reddit">
+                            <i class="fa-brands fa-reddit-alien"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="toc.js" defer></script>
+</body>
+
+</html>
