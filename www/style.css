@@ -53,12 +53,12 @@ a {
     outline-offset: 2px;
 }
 
-/* ---------- Layout ---------- */
+/* layout */
 .main-area {
     min-height: 100vh;
 }
 
-/* ---------- Hero / center layout ---------- */
+/* center layout */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -83,9 +83,14 @@ a {
     text-align: center;
     opacity: 0;
     animation: fadeUp 0.6s ease-out 0s forwards;
+    transition: text-shadow 0.3s ease;
 }
 
-/* ---------- Tech stack ---------- */
+.brand:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.500);
+}
+
+/* tech stack */
 .stack-row {
     display: flex;
     align-items: center;
@@ -124,7 +129,7 @@ a {
     color: #ffffff;
 }
 
-/* ---------- Tagline ---------- */
+/* tagline */
 .tagline {
     margin: 0 auto;
     max-width: 480px;
@@ -142,7 +147,7 @@ a {
     font-weight: 500;
 }
 
-/* ---------- Social links ---------- */
+/* socials */
 .socials {
     display: flex;
     align-items: center;
@@ -189,7 +194,7 @@ a {
     }
 }
 
-/* ---------- Community Projects ---------- */
+/* Projects */
 .projects {
     margin-top: 40px;
     padding-top: 24px;
@@ -231,7 +236,7 @@ a {
     border-bottom-color: #ffffff;
 }
 
-/* ---------- Footer ---------- */
+/* Footer */
 .site-footer {
     position: fixed;
     left: 0;
@@ -249,7 +254,7 @@ a {
     white-space: nowrap;
 }
 
-/* ---------- Responsive ---------- */
+/* Responsive */
 @media (max-width: 900px) {
     .hero {
         min-height: 100vh;
