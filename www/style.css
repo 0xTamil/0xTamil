@@ -68,7 +68,7 @@ a {
 }
 
 .hero-inner {
-    max-width: 820px;
+    max-width: 920px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -122,7 +122,7 @@ a {
 .stack-row {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
     margin: 0 0 22px;
