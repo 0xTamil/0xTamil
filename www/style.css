@@ -104,7 +104,7 @@ a {
 .brand {
     margin: 0 0 20px;
     font-family: var(--font-sans);
-    font-size: 72px;
+    font-size: 100px;
     letter-spacing: 0.02em;
     color: #ffffff;
     line-height: 1.15;
@@ -318,7 +318,7 @@ a {
     }
 
     .brand {
-        font-size: 56px;
+        font-size: 84px;
     }
 }
 
@@ -329,7 +329,7 @@ a {
     }
 
     .brand {
-        font-size: 40px;
+        font-size: 68px;
     }
 
     .stack-row {
