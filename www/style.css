@@ -10,7 +10,7 @@
     --shadow: rgba(0, 0, 0, 0.6);
     --brand-ink: #000000;
     --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-    --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-sans: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 *,
@@ -103,9 +103,9 @@ a {
 
 .brand {
     margin: 0 0 20px;
-    font-family: var(--font-mono);
+    font-family: var(--font-sans);
     font-size: 72px;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.02em;
     color: #ffffff;
     line-height: 1.15;
     text-align: center;
